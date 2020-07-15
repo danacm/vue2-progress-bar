@@ -1,11 +1,30 @@
 {
-  "name": "vue-progress-bar",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue2-progress-bar",
+  "version": "0.1.1",
+  "private": false,
+  "main": "./dist/progress-bar.umd.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name progress-bar ./src/components/index.js",
     "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danacm/vue2-progress-bar.git"
+  },
+  "author": "dana_chen@sina.cn",
+  "homepage": "https://danacm.github.io/vue2-progress-bar",
+  "keywords": [
+    "vue",
+    "components",
+    "progress bar"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danacm/vue2-progress-bar/issues"
   },
   "dependencies": {
     "core-js": "^3.6.5",
