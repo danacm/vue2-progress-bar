@@ -1,4 +1,4 @@
-# vue2-progress-bar [![npm package](https://img.shields.io/npm/v/vue2-progress-bar.svg)](https://www.npmjs.com/package/vue2-progress-bar)
+# vue2-progress-bar [![npm package](https://img.shields.io/npm/v/vue2-progress-bar.svg)(https://www.npmjs.com/package/vue2-progress-bar)]
 
 > A linear progress bar component for Vue.js. Uses SVG and javascript to animate a radial progress bar with a gradient.
 
