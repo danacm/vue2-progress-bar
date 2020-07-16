@@ -164,7 +164,8 @@
 </template>
 
 <script>
-import ProgressBar from "./components/ProgressBar.vue";
+// import ProgressBar from "./components/ProgressBar.vue";
+import ProgressBar from "vue2-progress-bar";
 
 export default {
   name: "App",

@@ -7936,6 +7936,14 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
+vue2-progress-bar@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npm.taobao.org/vue2-progress-bar/download/vue2-progress-bar-0.1.1.tgz#df0cdeddee0956a9ff449f87931e2dec28131a42"
+  integrity sha1-3wze3e4JVqn/RJ+Hkx4t7CgTGkI=
+  dependencies:
+    core-js "^3.6.5"
+    vue "^2.6.11"
+
 vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"

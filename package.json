@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name progress-bar ./src/components/index.js",
+    "build": "vue-cli-service build --mode production --target lib --name progress-bar ./src/components/index.js",
+    "build:demo": "vue-cli-service build --mode example",
     "lint": "vue-cli-service lint"
   },
   "repository": {
@@ -28,7 +29,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue2-progress-bar": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
