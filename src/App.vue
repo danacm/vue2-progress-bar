@@ -9,13 +9,29 @@
     <h1>Vue.js Linear Progress Bar</h1>
     <p class="spc-b">Linear progress bar component with gradients and animations!</p>
     <div class="spc-b">
-      <a class="github-button"
-        href="https://github.com/danacm/vue2-progress-bar"
-        data-style="mega"
-        data-count-href="/danacm/vue2-progress-bar/stargazers"
-        data-count-api="/repos/danacm/vue2-progress-bar#stargazers_count"
-        data-count-aria-label="# stargazers on GitHub"
-        aria-label="Star danacm/vue2-progress-bar on GitHub">View on Github</a>
+      <div class="widget">
+        <a
+          class="btn git-txt"
+          href="https://github.com/danacm/vue2-progress-bar"
+          rel="noopener"
+          target="_blank"
+          aria-label="Star danacm/vue2-progress-bar on GitHub"
+        >
+          <svg
+            viewBox="0 0 16 16"
+            width="14"
+            height="14"
+            class="octicon octicon-mark-github"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+            />
+          </svg>
+          <span class="txt">View on Github</span>
+        </a>
+      </div>
     </div>
     <div id="app">
       <div class="progress-display">
@@ -349,5 +365,41 @@ label {
 }
 .spc-b {
   margin-bottom: 30px;
+}
+.widget {
+  display: inline-block;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif;
+  font-size: 0;
+  line-height: 0;
+  white-space: nowrap;
+}
+.btn {
+  color: #24292e;
+  background-color: #eff3f6;
+}
+.git-txt {
+  position: relative;
+  display: inline-block;
+  height: 14px;
+  padding: 3px 5px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  vertical-align: bottom;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-repeat: repeat-x;
+  background-position: -1px -1px;
+  background-size: 110% 110%;
+}
+.txt {
+  margin-left: 10px;
+  position: relative;
+  top: -3px;
 }
 </style>
